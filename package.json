@@ -1,0 +1,10 @@
+{
+  "name": "transporte-cax-api",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "mockoon-cli start --data ./TransporteCaxApi.json --port $PORT --hostname 0.0.0.0"
+  },
+  "dependencies": {
+    "@mockoon/cli": "latest"
+  }
+}
